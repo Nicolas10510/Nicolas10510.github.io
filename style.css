@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* все размеры замеряем по краям рамки */
+}
+/* обнуляем обязательно, иначе не попадем в макет */
+
+@font-face {
+    font-family: 'aa_bebasneue1';
+    src: url(BebasNeue/BebasNeueBold.ttf);
+}
+/* 1 */
+.page{
+    width: 1440px;
+    background-color: #0101a3;
+    border: 2px solid black;
+    margin: 0 auto; 
+    /* выравнить всю страниу по центру браузера */
+    
+}
+.head {
+    min-height: 105px;
+    border-bottom: 16px solid #e92bde;
+    padding: 41px 56px 39px 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.link {
+    font-family: 'aa_bebasneue1';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 38px;
+}
+
+/* 1 стр */
+
+.fone1{
+    background: linear-gradient( #0101a3 20%, #0101a2, #000048);
+}
+.step1{
+    width: 1440px;
+    height: 141px;
+    /* border: 2px solid black; */
+}
+.cards1_1{
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 0px 60px;
+    /* задает расстояние только!!! между флекс элементами */
+    margin: 117px 132px 0px 132px;   
+} 
+.card1_1{
+    width: 466px;
+    height: 685px;
+    /* border: 2px solid black; */
+}  
+.card1_2{
+    width: 466px;
+    height: 243px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -350px;
+}
+.card1_3{
+    width: 466px;
+    height: 243px;
+}
+.line1_1{
+    border-bottom: 30px solid #e92bde;
+    width: 466px;
+    margin-top: 100px;
+    margin-left: -11px;
+}
+.line1_2{
+    border-bottom: 30px solid #e92bde;
+    width: 430px;
+    margin-top: 80px;
+    margin-left: -11px;
+}
+.line1_3{
+    border-bottom: 30px solid #e92bde;
+    width: 260px;
+    margin-top: 80px;
+    margin-left: -11px;
+}
+.pic1{
+    width: 650px;
+    height: 685px;
+}
+.btn1{
+    width: 202px;
+    height: 54px;
+    font-family: 'aa_bebasneue1';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    background: #c92fd9;
+    margin-top: 49px;
+}
+.text1_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 105px;
+    line-height: 106px;
+    font-weight: 400;
+    color: #fffefe;
+    margin-top: 42px;
+}
+.text1_2{
+    font-family: 'aa_bebasneue1';
+    font-size: 38.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #e92bde;
+    margin-top: 48px;
+}
+.text1_3{
+    font-family: 'aa_bebasneue1';
+    font-size: 34.3px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fefefe;
+    margin-top: 32px;
+}
+
+/* 2 стр */
+.fone2{
+    background: linear-gradient( #0101a3 20%, #0101a2, #000048);
+}
+.step2{
+    width: 1440px;
+    height: 160px;
+    /* border: 2px solid black; */
+}
+.cards2_1{
+    display: flex;
+    flex-direction:row;
+    gap: 0px 99px;
+    margin: 106px 206px 0px 206px; 
+}
+.card2_1{
+    width: 276px;
+    /* border: 2px solid black; */
+    height: 550px;
+    text-align: center;
+    overflow: hidden;
+}
+.title2{
+    font-family: 'aa_bebasneue1';
+    font-size: 62.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 141px;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 37.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 42px;
+}
+.text2_2{
+    font-family: 'aa_bebasneue1';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 24px;
+}
+.pic2{
+    width: 276px;
+    height: 276px;
+}
+
+/* 3 стр */
+.cards3_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title3{
+    font-family: 'aa_bebasneue1';
+    font-size: 62.5px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 73px;
+}
+.title3_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 29.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    /* border: 2px solid black; */
+    margin: 35px 361px 50px 361px;
+}
+.pic3{
+    width: 1184px;
+    height: 503px;
+    margin: 0px 128px 0px 128px;
+}
+.btn3{
+    width: 202px;
+    height: 49px;
+    font-family: 'aa_bebasneue1';
+    font-size: 29.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    background: #c92fd9;
+    margin: 74px 619px 184px 619px;
+}
+/* 4 стр */
+.cards4_1{
+    display: flex;
+    flex-direction:row;
+    gap: 0px 80px;
+    margin: 0px 132px 0px 132px;   
+} 
+.card4_1{
+    width: 450px;
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+.pic4{
+    width: 652px;
+    height: 609px;
+}
+.text4_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 62.5px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 100px;
+    text-align:right;
+}
+.text4_2{
+    font-family: 'aa_bebasneue1';
+    font-size: 37.5px;
+    line-height: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 48px;
+    text-align:right;
+}
+.btn4{
+    width: 156px;
+    height: 39px;
+    font-family: 'aa_bebasneue1';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    background: #c92fd9;
+    margin-top: 51px;
+    margin-left: 290px;
+}
+/* 5 стр */
+.cards5_1{
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 0px 80px;
+    margin: 322px 132px 182px 132px;   
+} 
+.card5_1{
+    width: 450px;
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+.pic5{
+    width: 652px;
+    height: 609px;
+}
+.text5_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 62.5px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 100px;
+    text-align:left;
+}
+.text5_2{
+    font-family: 'aa_bebasneue1';
+    font-size: 37.5px;
+    line-height: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 48px;
+    text-align:left;
+}
+.btn5{
+    width: 156px;
+    height: 39px;
+    font-family: 'aa_bebasneue1';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    background: #c92fd9;
+    margin-top: 51px;
+}
+/* 6 стр */
+.fone6{
+    background: #000086;
+    width: 1439px;
+    height: 790px;
+}
+.cards6_1{
+    display: flex;
+    flex-direction:row;
+    gap: 0px 30px;
+    margin: 95px 132px 0px 132px;
+    
+}
+.card6_1{
+    width: 373px;
+    /* border: 2px solid black; */
+    /* height: 520px; */
+    /* Не использовать в следующий раз */
+    text-align: center;
+    overflow: hidden;
+    text-align:left;
+    /* Выравнил все элементы карточки по левому краю */
+}
+.title6{
+    font-family: 'aa_bebasneue1';
+    font-size: 62.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 70px;
+    /* border: 2px solid black; */
+}
+.content6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text6_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 27px;
+}
+.text6_2{
+    font-family: 'aa_bebasneue1';
+    font-size: 16.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+.pic6{
+    width: 373px;
+    height: 212px;
+}
+.btn6{
+    width: 126px;
+    height: 34px;
+    font-family: 'aa_bebasneue1';
+    font-size: 16.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    background: #c92fd9;
+    margin-top: 26px;
+}
+/* 7 стр */
+.cards7_1{
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 0px 155px;
+    margin: 167px 132px 154px 132px;
+    /* border: 2px solid black; */
+} 
+.card7_1{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    text-align:left;
+}
+.card7_2{
+    width: 579px;
+    height: 621px;
+    background-color: #e92bde;
+    border: 2px solid black;
+    padding: 50px 50px 0 50px;
+}
+.card7_3{
+    width: 475px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 0px 49px;
+    margin-top: 60px;
+}
+.text7_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 58.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 137px;
+}
+.text7_2{
+    font-family: 'aa_bebasneue1';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 54px;
+}
+.text7_3{
+    font-family: 'aa_bebasneue1';
+    font-size: 12.5px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.text7_4{
+    font-family: 'aa_bebasneue1';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+   
+}
+.btn7{
+    width: 151px;
+    height: 44px;
+    font-family: 'aa_bebasneue1';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    background: #c92fd9;
+    margin-top: 56px;
+}
+.form7_1{
+    width: 225px;
+    height: 35px;
+    background: #e92bde;
+    border: 2px solid white;
+    margin-top: 35px;
+}
+.form7_2{
+    width: 225px;
+    height: 35px;
+    background: #e92bde;
+    border: 2px solid white;
+    margin-left: 21px;
+    margin-top: 35px;
+}
+.form7_3{
+    width: 475px;
+    height: 35px;
+    background: #e92bde;
+    border: 2px solid white;
+    margin-top: 35px;
+}
+.form7_4{
+    width: 475px;
+    height: 220px;
+    background: #e92bde;
+    border: 2px solid white;
+    margin-top: 35px;
+}
+.form7_5{
+    width: 27px;
+    height: 26px;
+    background: #e92bde;
+    border: 2px solid white;
+    margin-top: 2px;
+}
+/* 8 стр */
+.cards8_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px 0px;
+    /* border: 2px solid black; */
+    margin-bottom: 73px;
+} 
+.text8_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 58.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+}
+.text8_2{
+    font-family: 'aa_bebasneue1';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    margin: 0px 429px 0px 422px;
+    text-align: center;
+}
+.pic8{
+    width: 1182px;
+    height: 582px;
+}
+/* Футер */
+.foneFut{
+    background: linear-gradient(#000048, #0101a2, #0101a3 100%);
+    width: 1439px;
+    height: 590px;
+}
+.stepFut{
+    width: 1440px;
+    height: 58px;
+    /* border: 2px solid black; */
+}
+.cardsFut{
+    font-family: 'aa_bebasneue1';
+    font-size: 23.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 91px;
+    margin-left: 57px;
+    margin-bottom: 117px;
+    /* border: 2px solid black; */
+}
+.cardFut_1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.cardFut_2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cardFut_3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cardFut_4{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 66px 51px 57px;
+    justify-content: space-between;
+}
+.picFut_1{
+    width: 205px;
+    height: 33px;
+    margin-left: 57px;
+    /* border: 2px solid black; */
+}
+.picFut_2{
+    width: 1440px;
+    height: 15px;
+}
+.textFut{
+    font-family: 'aa_bebasneue1';
+    font-size: 19.6px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #e92bde;
+}
+.textFut_1{
+    font-family: 'aa_bebasneue1';
+    font-size: 23.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+}
+.link_f_1 {
+    text-decoration: none;
+    font-family: 'aa_bebasneue1';
+    font-size: 23.4px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+}
+.link_f_2 {
+    text-decoration: none;
+    font-family: 'aa_bebasneue1';
+    font-size: 19.6px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #e92bde;
+}
